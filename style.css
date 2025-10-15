@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Carter+One&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    Padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Calistoga", serif;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #625455, #717c7e);
+}
+
+.calculator {
+    border: 1px solid #bbc7dc;
+    padding: 20px;
+    background: transparent;
+    border-radius: 15px;
+    box-shadow: 0px 3px 15px rgba(209, 193, 202, 0.5);
+
+}
+
+input {
+    width: 320px;
+    border: none;
+    background: transparent;
+    padding: 24px;
+    margin: 10px;
+    font-size: 40px;
+    text-align: right;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0px 3px 15px rgba(122, 116, 116, 0.5);
+}
+
+input::placeholder {
+    color: #fff;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttons .operator{
+    color: rgb(88, 231, 88);
+}
+.buttons .equalBtn{
+    background-color: rgb(231, 133, 88);
+}
+
+button {
+    background: transparent;
+    border: none;
+    width: 70px;
+    height: 50px;
+    margin: 6px;
+    border-radius: 3px;
+    font-size: 22px;
+    cursor: pointer;
+    color: #fff;
+    box-shadow: 0px 3px 15px rgba(174, 166, 166, 0.5);
+
+}
+
+.buttons button:active{
+    transform: scale(0.95);
+}
