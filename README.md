@@ -21,6 +21,7 @@ CSS3 – for layout and responsiveness
 JavaScript (ES6) – for calculator logic and interactivity
 
 🌐 Live Demo
+view live: (https://amansin777.github.io/Responsive-Calculator/)
 
 
 🧩 Future Enhancements
